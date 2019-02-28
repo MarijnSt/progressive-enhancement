@@ -1,0 +1,127 @@
+p {
+	word-spacing: 4px;
+	font-size: 18px;
+	color: #000080;
+}
+
+a {
+	font-size: 18px;
+	color: #b30000;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #009999;
+}
+
+a:visited {
+	color: #e67300;
+}
+
+body {
+	max-width: 90%;
+	margin: 0 auto;
+	background: -webkit-linear-gradient(90deg, rgb(84, 166, 239), rgb(46, 180, 114));
+	background: url(http://www.pngmart.com/files/7/SEO-PNG-Transparent-Image.png) no-repeat right bottom,
+				linear-gradient(90deg, rgb(84, 166, 239), rgb(46, 180, 114));
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+}
+
+blockquote {
+	max-width: 50%;
+	margin: 80px auto;
+	background-color: #f2f2f2;
+	border-left: 3px solid black;
+	padding-left: 30px;
+}
+
+blockquote p {
+	font-size: 160%;
+}
+
+q {
+	font-style: italic;
+}
+
+.villager {
+	border-left: 3px solid red;
+	padding-left: 5px;
+}
+
+.farmer {
+	border-left: 3px solid blue;
+	padding-left: 5px;
+}
+
+header > p {
+	background-color: yellow;
+}
+
+.bad {
+	text-transform: uppercase;
+	color: red;
+}
+
+.good {
+	text-transform: uppercase;
+	color: green;
+}
+
+th {
+	background: #ffbb99;
+}
+
+tbody tr:nth-child(even) {
+	background: white; 
+}
+
+tbody tr:nth-child(odd) {
+	background: grey; 
+}
+
+caption {
+	caption-side: bottom;
+	font-size: 80%;
+	font-style: italic;
+}
+
+ol li:nth-child(1) {
+	padding-left: 20px;
+	background-image: url(https://github.com/becodeorg/GNT-Yu-1.10/raw/master/01-The-fields/04-html-css/01-html-css-basics/images/bien.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: contain;
+}
+
+ol li:nth-child(2) {
+	padding-left: 20px;
+	background-image: url(https://github.com/becodeorg/GNT-Yu-1.10/raw/master/01-The-fields/04-html-css/01-html-css-basics/images/mal.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: contain;
+}
+
+ol li:nth-child(3) {
+	padding-left: 20px;
+	background-image: url(https://github.com/becodeorg/GNT-Yu-1.10/raw/master/01-The-fields/04-html-css/01-html-css-basics/images/chat.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: contain;
+}
+
+blockquote p:nth-child(1) {
+	font-weight: bold;
+}
+
+.notification {
+	background: #FFFFDD;
+ 	padding: .5rem 1rem;
+ 	border: 3px solid #DDDDCC;
+ 	width: 250px;
+	font-weight: bold;
+	color: #333300;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
